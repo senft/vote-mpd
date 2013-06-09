@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Alef:400,700);
+
+body{
+    font-family: 'Alef', sans-serif;
+}
+
+table.playlist {
+    font-size: 16pt;
+    padding: 0;
+    margin: 0;
+}
+
+table.playlist a{
+    color: #000;
+    text-decoration: none;
+}
+
+tr.current{
+    font-weight: bold;
+    background-color: #e9e9e9;
+}
+
+tr.odd{
+    background-color: #fff;
+}
+
+tr.even{
+    background-color: #e9e9e9;
+}
+
+td.vote{
+    text-align: center;
+}
+
+td.divider{
+    text-align: center;
+}
+
+td.title{
+    padding: 4px 1px 4px 1px;
+}
+
+td.artist{
+}

@@ -1,0 +1,31 @@
+table.playlist {
+    table-layout:fixed;
+    width: 330px;
+    font-size: 10pt;
+}
+
+td.vote{
+    display: none;
+}
+
+td.divider{
+    display: none;
+}
+
+td.title{
+    page-break-after:always
+    width: 130px;
+    white-space: normal;
+    /*overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;*/
+}
+
+td.artist{
+    page-break-after:always
+    width: 130px;
+    white-space: normal;
+    /*overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;*/
+}
