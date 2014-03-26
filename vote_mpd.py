@@ -54,6 +54,9 @@ class VoteMPD(threading.Thread):
 
             time.sleep(DELAY)
 
+    def get_current_song(self):
+        return self.client.currentsong()
+
     def get_next_song(self):
         self.arrange_playlist()
         return self.client.playlistinfo()[1]
